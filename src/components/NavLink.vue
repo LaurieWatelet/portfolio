@@ -7,9 +7,9 @@
       :href="url"
       :disabled="isDisabled"
       :aria-disabled="isDisabled"
-      >{{ text }}</a
-    >
+    >{{ text }}</a>
   </li>
+</template>
 
 <script setup>
 defineProps({
@@ -34,5 +34,3 @@ defineProps({
   },
 });
 </script>
-
-</template>
