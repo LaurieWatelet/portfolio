@@ -18,10 +18,16 @@
 
     </footer>
     <!-- Utilisation du composant Footer -->
+
+    <PrimaryButton>
+      Cliquez ici <!-- slot -->
+    </PrimaryButton>
+
   </div>
 </template>
 
 <script setup>
+import PrimaryButton from './PrimaryButton.vue';
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 </script>
