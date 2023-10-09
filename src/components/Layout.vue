@@ -1,27 +1,15 @@
-<script setup>
-import Nav from './Nav.vue';
-import Footer from './Footer.vue';
-</script>
-
 <template>
-  <div class="d-flex flex-column h-100">
-    <header>
-      <Nav />
-    </header>
+  <div>
+    <!-- Titre de la page -->
+    <slot name="title"></slot>
 
-    <main class="flex-shrink-0 py-5">
-      <div class="container">
-        <slot name="title" />
-        <slot name="content" />
-      </div>
-    </main>
-
-    <Footer />
+    <!-- Contenu principal de la page -->
+    <slot name="content"></slot>
   </div>
 </template>
 
-<style>
-#app {
-  height: 100vh;
-}
-</style>
+<script>
+export default {
+  name: 'Layout'
+};
+</script>
