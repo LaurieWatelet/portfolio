@@ -85,7 +85,7 @@
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import Layout from './components/Layout.vue';
-import NavLink from './NavLink.vue';
+import NavLink from './components/NavLink.vue';
 </script>
 
 <style>
