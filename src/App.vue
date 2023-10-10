@@ -78,6 +78,10 @@
     </div>
   </nav>
 
+  <Layout>
+    <RouterView />
+  </Layout>
+
   </div>
 </template>
 
@@ -85,6 +89,7 @@
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import Layout from './components/Layout.vue';
+import { RouterView } from 'vue-router';
 import NavLink from './components/NavLink.vue';
 </script>
 
