@@ -77,10 +77,19 @@
       </div>
     </div>
   </nav>
-
-  <Layout>
-    <RouterView />
-  </Layout>
+<div id="app">
+    <nav>
+      <ul>
+        <li>
+          <RouterLink to="/">Accueil</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/about">À Propos</RouterLink>
+        </li>
+      </ul>
+    </nav>
+    <RouterView>
+  </div>
 
   </div>
 </template>
@@ -89,7 +98,7 @@
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import Layout from './components/Layout.vue';
-import { RouterView } from 'vue-router';
+import { RouterView, RouterLink } from 'vue-router';
 import NavLink from './components/NavLink.vue';
 </script>
 
