@@ -82,7 +82,6 @@
 </template>
 
 <script setup>
-import PrimaryButton from './PrimaryButton.vue';
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import Layout from './components/Layout.vue';
